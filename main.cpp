@@ -28,14 +28,14 @@ int main() {
         cin >> choice;
         switch (choice) {
             case 1:
-                cout << "Введите массу (m) и скорость (v): ";
+                cout << "Введите массу (m) в кг и скорость (v) в м/с: ";
                 cin >> m >> v;
-                cout << "Кинетическая энергия = " << kineticEnergy(m, v) << "\n";
+                cout << "Кинетическая энергия = " << kineticEnergy(m, v) << " Дж\n";
                 break;
 	    case 2:
-		cout << "Введите массу (m) и скорость (v): ";
+		cout << "Введите массу (m) в кг и скорость (v) в м/с: ";
 		cin >> m >> v;
-		cout << "Импульс = " << momentum(m, v) << "\n";
+		cout << "Импульс = " << momentum(m, v) << " кг*м/с\n";
 		break;
             case 0:
                 cout << "Работа завершена.\n";
